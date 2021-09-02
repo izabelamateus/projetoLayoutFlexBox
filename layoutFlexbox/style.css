@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:linear-gradient( #BFBFBD, #594F59) ;
+}
+a{ 
+    color: #261F24;
+}
+header img{
+    width: 100px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #0197FD;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.capa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(img/capa.jpg);
+}
+.capa h1{
+    font-size: 50PX;
+}
+.capa h3{
+    font-size: 25px;
+}
+.capa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capa2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destaque{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: linear-gradient(#F2F2F2, #BFBFBD);
+    width: auto;
+}
+.destaque1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.destaque2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.destaque3, .destaque4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destaque3 img{
+    margin: 20px;
+}
+.destaque4 img{
+    margin: 20px;
+}
+.item{
+    margin: 10px;
+}
+.ambiente{
+    padding: 40px;
+    background-image: linear-gradient( #DCDCDC 50%, #F2F2F2);
+}
+.ambiente h1 {
+    font-size: 30px;
+}
+.ambiente p{
+    font-size: 20px;
+}
+.ambiente1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 300px;
+    margin: 10px;
+}
+.ambiente2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 300px ;
+    margin: 10px;
+}
+.texto, .img{
+    margin: 10px;
+}
+h1{
+   display: flex;
+}
+p{
+    display: flex;
+}
+footer{
+    background-color: #0197FD;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
